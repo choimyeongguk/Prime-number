@@ -9,7 +9,7 @@ int main(){
 	int judge = 0;
 	vector<int> prime(1, 2);
 	
-	printf("¼ıÀÚ ÀÔ·Â: ");
+	printf("ìˆ«ì ì…ë ¥: ");
 	scanf("%d", &size);
 	
 	for(i=3;i<size;i++){
@@ -28,6 +28,6 @@ int main(){
 		}
 		judge = 0;
 	}
-	printf("\n\n¼Ò¼öÀÇ °³¼ö: %d", prime.size());
+	printf("\n\nì†Œìˆ˜ì˜ ê°œìˆ˜: %d", prime.size());
 	return 0;
 }
